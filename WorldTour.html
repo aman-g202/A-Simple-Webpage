@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>World Tours</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+   <script type="text/javascript">
+    
+    var slideimage = new array()
+    
+    slideimage[0] = new image
+    slideimage[0].src = "C:/Users/Aman/Desktop/9.jpg"
+
+    slideimage[1] = new image
+    slideimage[1].src = "C:/Users/Aman/Desktop13.jpg"
+    
+    slideimage[2] = new image
+    slideimage[2].src="C:/Users/Aman/Desktop/14.jpg"
+    
+    slideimage[3] = new image
+    slideimage[3].src="C:/Users/Aman/Desktop/15.jpg"
+    
+    slideimage[4] = new image
+    slideimage[4].src="C:/Users/Aman/Desktop/16.jpg"
+
+      var temp=0
+
+         function slide()
+         {
+               if (!document.images) 
+                {
+                   return
+                     document.getElementById('slide').src = slideimages[temp].src
+                }
+                if (temp<4)
+                  {
+                    temp++
+                  }  
+
+               else
+               {
+                 temp=0
+                }
+            setTimeout("slide()",3000)
+
+        }
+    
+
+
+   </script>
+
+</head>
+<style>
+    body
+    {
+      margin-left: 200px;
+      margin-right: 200px;
+    }
+   header
+   {
+      font-size: 40px;
+      margin-left: 0px;
+      position: absolute;       
+   }
+  #headerside a
+   {
+        display: inline-block;
+        transition:all 0.4s ease;
+        font-size: 15px;
+        padding-right: 20px;
+   }
+   #headerside
+   {
+       margin-top: 5px;
+       margin-left:250px;
+   }
+   header #headerside
+   {
+    display: inline;
+   }
+   a
+   {
+   	text-decoration: none;
+   }
+   a:hover
+   {
+    color: red;
+   
+   }
+   nav ul li
+    {
+      list-style: none;
+      display: inline-block;
+      margin-top: 60px;
+      margin-right: 20px;
+      font-size: 17px;
+    }
+    #home
+    {
+      margin-left: -40px;
+    }
+    #container
+    {
+      background-color: #cc99ff;
+      padding: 15px;
+      border-radius: 10px;
+
+    }
+    #c1 a
+    {
+      display: inline-block;
+      color: black;
+
+    }
+    #c1
+    {
+      margin-left: 370px;
+      margin-top:-20px; 
+    }
+    #c1 a:hover
+    {
+      color: red;
+    }
+    #container a
+    {
+      display: inline-block;
+    }
+    #departure
+    {
+      padding: 5px;
+    }
+    #b1
+    {
+      padding: 5px;
+      background-color: orange;
+      width:12em;
+    }
+    #date,#duration
+    {
+      padding: 5px;
+    }
+    #canyon a
+    {
+      
+      font-size: 15px;
+
+    }
+    #canyon a:hover
+    {
+      color: red;
+    }
+    #newrelease a
+    {
+      color: black;
+      font-size: 17px;
+    }
+    #newrelease a:hover
+    {
+      color: red;
+    }
+    #niagra,#lasvegas,#venice
+    {
+      padding: 7px;
+      border-radius: 5px;
+      width:9em;
+    }
+    #niagra
+    {
+      background-color: #3333ff;
+
+    }
+     #span01,#span02
+    {
+      display: inline-block;
+    }
+    #span1,#span2
+    {
+      display: inline-block;
+    }
+    #span3,#span4
+    {
+      display: inline-block;
+    }
+    #email
+    {
+      padding: 5px;
+      border-radius: 5px;
+      width:17em;
+    }
+    #b2
+    {
+      background-color: orange;
+      border-radius: 5px;
+      width:8em;
+      padding: 5px;
+    }
+    .container2
+    {
+      background-color: #9933ff;
+      padding: -40px;
+      width: 29em;
+      border-radius: 10px;
+    }
+    #span5 a
+    {
+      color: black;
+    }
+     #span6 a
+    {
+      color: black;
+    }
+      #span7 a
+    {
+      color: black;
+    }
+      #span8 a
+    {
+      color: black;
+    }
+    #span9 a
+    {
+      color: black;
+    }
+    #span5,#span6,#span7,#span8,#span9
+    {
+      display: inline-block;
+    }
+    .verticalLine
+     {
+        border-right: thick solid black;
+        border-left: thick solid black;
+
+     }
+     .container3
+     {
+        background-color: #336699;
+        border-radius: 20px;
+     }
+     #span9 a:hover
+     {
+      color: orange;
+     }
+     #span8  a:hover
+     {
+      color: orange;
+     }
+     #span7 a:hover
+     {
+      color: orange;
+     }
+     #span6 a:hover
+     {
+      color: orange;
+     }
+     #span5 a:hover
+     {
+      color: orange;
+     }
+      footer .footing
+     {
+       font-size: 30px;
+      font-style: bold italic;
+       font-family: broadway;
+       margin-left: 0px;
+       color:#333300;
+      
+     }
+     #span10,#span11
+     {
+       display: inline-block;
+     }
+     #span11
+     {
+       margin-left: 200px;
+       position: absolute;
+     }
+     #useast
+     {
+         background-color: #3333ff;
+         padding: 8px;
+         border-radius: 10px;       
+     }
+     #uswest
+     {
+         
+         padding: 8px;
+         border-radius: 10px;       
+     }
+     #europe
+     {
+         
+         padding: 8px;
+         border-radius: 10px;       
+     }
+      #span12,#span13
+     {
+       display: inline-block;
+     }
+      #link1
+      {
+        margin-left: 590px;
+        position: absolute;
+        margin-top: -50px;
+
+      }
+      #image1
+      {
+        margin-left: 480px;
+        position: absolute;
+        margin-top: -50px;
+        border-radius: 10px;
+      }
+      #container3
+      {
+        margin-left: 480px;
+        position: absolute;
+        margin-top: -150px;
+      }
+      #image2
+      {
+        margin-left: 480px;
+        position: absolute;
+        margin-top: 80px
+      }
+      #image3
+      {
+        margin-left: 480px;
+        position: absolute;
+        margin-top: -100px
+      }
+      #container4
+      {
+        margin-left: 600px;
+        position: absolute;
+        margin-top: 80px;
+      }
+      #a1
+      {
+        margin-left: 600px;
+        position: absolute;
+        margin-top: 130px;
+      }
+       #a2
+      {
+        margin-left: 700px;
+        position: absolute;
+        margin-top: 130px;
+      }
+      #a3
+      {
+        margin-left: 850px;
+        position: absolute;
+        margin-top: 130px;
+      }
+      #a4
+      {
+        margin-left: 600px;
+        position: absolute;
+        margin-top: 150px;
+      }
+      #a5
+      {
+        margin-left: 700px;
+        position: absolute;
+        margin-top: 150px;
+      }
+      #a6
+      {
+        margin-left: 860px;
+        position: absolute;
+        margin-top: 150px;
+      }
+      #a7
+      {
+        margin-left: 800px;
+        position: absolute;
+        margin-top: 70px;
+      }
+      li #drop1
+      {
+        display: none;
+        list-style: none;
+        position: absolute;
+        margin-top: 15px;
+        padding:20px;
+        margin-left: -10px;
+        transition:all 3s ease;
+
+      }
+      li:hover #drop1
+      {
+        display: inline-block;
+        position: absolute;
+        background-color: #fffff0;
+        
+      }
+      li #drop2
+      {
+        display: none;
+        list-style: none;
+        position: absolute;
+        margin-top: 15px;
+        padding:-20px;
+        margin-left: -10px;
+        padding-bottom: 20px;
+        transition:all 3s ease-in;
+
+      }
+      li:hover #drop2
+      {
+        display: inline-block;
+        position: absolute;
+        background-color: #fffff0;
+        transition:all 5s ease-in;
+      }
+       li #drop3
+      {
+        display: none;
+        list-style: none;
+        position: absolute;
+        margin-top: 15px;
+        padding:-20px;
+        margin-left: -10px;
+        padding-bottom: 20px;
+        transition:all 3s ease-in;
+
+      }
+      li:hover #drop3
+      {
+        display: inline-block;
+        position: absolute;
+        background-color: #fffff0;
+        transition:all 5s ease-in;
+      }
+      li li
+      {
+        display: block;
+      }
+</style>
+<body>
+     <header>
+ 	 <font color="red"><b>World</b></font><font color="blue"><b>Tours</b></font>
+    <div id="headerside">
+ 	   <b><a href="#">Log in or Register <i class="fa fa-user-plus"></i> <i class="fa fa-shopping-cart"> |</i></a>
+ 	   <a href="#">Help</a>
+ 	   <a href="#"><i class="fa fa-comment-o"></i> Live Chat</a>
+ 	   <a href="#"><font color="black"><i class="fa fa-phone"></i> +91-7415806040</font></a></b>
+    </div> 
+     </header>
+   <nav>
+     <ul>
+      <b><li id="home"><a href="#">Home</a></li>
+      <li><a href="#">Tours & Vacation</a>
+          <div id="drop1">
+             <ul>
+              
+               <li><a href="#">US East Coast</a><br>
+                      <a href="#">New York</a><br>
+                      <a href="#">Niagara Falls</a><br>
+                      <a href="#">Washington D.C.</a><br>
+                      <a href="#">Orlando</a><br>
+                      <a href="#">Boston</a><br>
+                      <a href="#">Miami</a><br>
+                      <a href="#">Philadelphia</a><br>
+                      <a href="#">Chicago</a></li>
+               <li><a href="#">US West Coast</a><br>
+                      <a href="#">Los Angeles</a><br>
+                      <a href="#">Grand Canyon</a><br>
+                      <a href="#">Las Vegas</a><br>
+                      <a href="#">San Francisco</a><br>
+                      <a href="#">Yellowstone</a><br>
+                      <a href="#">Hawaii</a><br>
+                      <a href="#">Yosemite</a><br>
+                      <a href="#">San Diego</a></li>
+               <li><a href="#">Canada</a><br>
+                            <a href="#">Montreal</a><br>
+                            <a href="#">Toronto</a><br>
+                            <a href="#">Vancouver</a><br>
+                            <a href="#">Victoria</a><br>
+                            <a href="#">Whistler</a><br>
+                            <a href="#">Rocky Mountains</a><br>
+                            <a href="#">Ottawa</a><br>
+                            <a href="#">Calgary</a></li>
+                <li><a href="#">Europe</a><br>
+                      <a href="#">Italy</a><br>
+                      <a href="#">Spain</a><br>
+                      <a href="#">Portugal</a><br>
+                      <a href="#">Germany</a><br>
+                      <a href="#">London</a><br>
+                      <a href="#">Paris</a><br>
+                      <a href="#">Vienna</a><br>
+                      <a href="#">celand</a><br></li> 
+                <li><a href="#">Australia</a><br>
+                    <a href="#">Sydney</a><br>
+                    <a href="#">Latin America</a><br>
+                    <a href="#">Mexico</a><br>
+                    <a href="#">Brazil</a><br>
+                    <a href="#">Asia</a><br>
+                    <a href="#">Bangkok</a><br>
+                    <a href="#">Shanghai</a><br>
+                    <a href="#">Middle East</a><br></li>
+                                  
+                
+              </ul>
+              </div> 
+
+      </li>
+      <li><a href="#">Hotels</a>
+            <div id="drop2">
+                 <ul>
+              
+                     <li><a href="#">New York</a><br>
+                          <a href="#">Washington DC</a><br>
+                          <a href="#">Orlando</a><br>
+                          <a href="#">Boston</a><br>
+                          <a href="#">Los Angeles</a><br>
+                          <a href="#">Las Vegas</a><br>
+                          <a href="#">San Francisco</a><br>
+                          <a href="#">San Diego</a><br><br>
+                          <a href="#">More Hotels<i class="fa fa-angle-double-right"></i></a><br>
+
+
+            </div>
+
+
+
+      </li>
+      <li><a href="#">Shows</a>
+                <div id="drop3">
+                 <ul>
+
+                       <li><a href="#"><b>Hawaii</b></a><br>
+                            <a href="#">Magic of Polynesian Show</a><br>
+                            <a href="#">Paradise Cove Luau Show</a><br>
+                            <a href="#">Sheraton Hawaiian Dinner Show</a><br>
+                            <a href="#"><b>Las Vegas</b></a><br>
+                            <a href="#">Blue Man Group</a><br>
+                            <a href="#">KÀ Cirque du Soleil</a><br>
+                            <a href="#">O Cirque du Soleil</a><br>
+                            <a href="#"><b>New York</b></a><br>
+                            <a href="#">Chicago</a><br>
+                            <a href="#">The Lion King</a><br><br>
+                            <a href="#">More Shows<i class="fa fa-angle-double-right"></i></a><br></li>
+
+                 </ul>
+                 </div>
+
+      
+      <li><a href="#">Bus Tickets</a></li>
+      <li><a href="#">Deals</a></li>
+      <li><a href="#">Private Tours</a></li></b>
+     </ul>
+  </nav>
+  <div id="container">
+    <b><font size="4px">Find Tours & Vacations</font></b>
+     <div id="c1">
+      <b><a href="#">Trending Now:</a>
+      <a href="#">East Coast Packages,</a>
+      <a href="#">Grand Canyon Tours,</a>
+      <a href="#">Yellow Stone Tours</a></b>
+     </div> 
+     <p>
+     <input type="text" id="departure" size="100%" placeholder="Departure : AnyWhere                                               Destination(s), Attraction(s), Keyword(s) Or Find Tours">      <button id="b1" onclick="window.loacation.href='#'">Show Tours</button>
+     </p>
+      <input type="text" id="date" size="50%" placeholder="Starting Date(s) : Any Day"> <input type="text" id="duration" size="45%" placeholder="Duration : Any Length">
+
+  </div>
+
+  <b><h1>Welcome To Our Website !</h1></b>
+  <section>
+   
+   <p> <img src="1.jpg" width="230" height="200" style="border-radius:10px"></img> <img src="2.jpg" width="230" height="200" style="border-radius:10px"></img>
+    <img src="9.jpg" width="480" height="200" style="border-radius:10px"></img></p>
+     <div id="canyon">
+     <b><span id="span01"> <a href="#">Grand Canyon 2-3 Days Local Tours</a></span>
+      <span id="span02"> <a href="#">Niagara Falls 2-3 Days Local Tours</a></span></b>
+    
+     </div>
+
+     <hr width="48%" align="left"> <hr width="48%" align="right">
+    
+     <h3><b><font color="#009900">NEW RELEASES  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp   &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp   &nbsp  &nbsp  &nbsp  &nbsp  &nbsp   &nbsp  &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  &nbsp  POPULAR TOURS & VACATIONS! </font></b></h3> 
+    
+         <span id="span10">   
+     <b><span id="span1"><a href="#"> 1) UP TO 10% OFF</a></span>
+           <span id="span2"><a href="#"> 2) Acadia National Park</a></span><br>
+       <span id="span3"><a href="#"> 3) Fall Foliage Tour</a></span>
+        <span id="span4"> <a href="#"> 4) Yellow Stone Park Tour</a></span></b>
+          </span>
+         <span id="span11">
+            <input type="submit" value="US EAST VACATION" id="useast"> <input type="submit" value="US WEST VACATION" id="uswest"> <input type="submit" value="EUROPE VACATION" id="europe">
+         </span> 
+      
+         
+          
+     <hr width="48%" align="left">
+            
+          
+       <b><h1>Top Local Tours and Sightseeing Activities</h1></b> 
+         <div id="link1">
+       <b><a href="#">1)  Niagara Falls Tours & Packages from New York -<font color="red">$108+</a><br></font>
+        <a href="#">2)  Washington DC Tours & Packages from New York- <font color="red">$76+</a><br></font>
+         <a href="#">3)  Niagara Falls Tours & Packages from Boston -<font color="red">$165+</a><br></font>
+          <a href="#">4)  Canada Tours & Packages from Boston - <font color="red">$238+ </a><br></font>
+          <a href="#">5) Niagara Falls Tours & Packages from Washington DC -<font color="red">$192+</a><br><br></font>
+           <a href="#">See more vacation package deals in US East Coast <i class="fa fa-angle-double-right"></i></a></b>
+
+         </div>
+               
+         <div id="image1">
+             <img src="10.jpg" width="100" height="100" style="border-radius:10px">
+         </div>
+         
+          
+              </span>
+       <b><pre><input type="submit" value="Niagra Falls" id="niagra">     <input type="submit" value="Las Vegas" id="lasvegas">     <input type="submit" value="Venice" id="venice"></pre></b>
+       <div id="lower">
+           
+       <b><h4>Best Selling : <a href="#">Niagra Falls Tours From NewYork :-)</a><br><br><hr width="50%" align="right">
+        <a href="#">1) 2-Days Niagra Falls Tours From NewYork - <font color="black"><del>$135</del></font> <font color="red">$108</a><br></font> 
+
+        <a href="#">2) 3-Days Niagra Falls WashingTonDC - <font color="black"><del>$165</del></font> <font color="red">$132</a><br></font>
+         <a href="#">3) 3-Days Niagra Falls Torronto Canada <font color="black"><del>$190</del></font>  <font color="red">-$152</a><br></font>
+          <a href="#">4) 4-days Philadelphia  WashingTonDC - <font color="red">$192 </a><br><br></font>
+          <a href="#">See More Niagra Falls Vacation Packages From Newyork <i class="fa fa-angle-double-right"></i></a>
+     </h4></b></div>
+          <div id="container3">
+                 <b><h1>Traveler Reviews</h1></b>
+                 <b><a href="#"> 2-Day Niagara Falls and 1000 Islands Tour from New York/New Jersey</a><br><br></b>
+                 <font size="3px"><i class="fa fa-quote-left"></i> Great trip but we wished ample time was given at Niagara Falls.<br> Just an hour??? Not enough
+                     Also it would be like a feather on the cap <br>if additional places be covered if guests like me would love to visit at<br> an extra price.
+                      Overall, me and my family loved the attractions,<br> Niagara Falls and Maid of the Mist topping the charts. Also Sherry,<br> our guide...<i class="fa fa-quote-right"></i> </font <br>
+                       <p align="right"> - Am@n</p>
+                       <b><a href="#"><p align="right">SEE MORE <i class="fa fa-angle-double-right"></i></p></a></b> 
+                           
+           </div>
+            
+                  
+       
+               
+     <hr width="48%" align="left">
+     <b><h1>Featured Destinations</h1></b>
+     <img src="3.jpg" width="150" height="80"> <img src="4.jpg" width="150" height="80"> <img src="5.jpg" width="150" height="80"><br>  <hr width="48%" align="right">
+      <img src="6.jpg" width="150" height="80">  <img src="7.jpg" width="150" height="80">  <img src="8.jpg" width="150" height="80"><br>
+     <b><a href="#">Deals By Destination <i class="fa fa-angle-double-right"></i></a></b>
+                    <div id="image2">
+                <img src="11.jpg" width="100" height="100" style="border-radius:10px"></img>
+                   </div>
+                   <div id="image3">
+                <img src="12.jpg" width="480" height="160" style="border-radius:10px"></img>
+                   </div>
+                 <div id="container4">
+                  <h1>Need Help? Chat with us or call us</h1><br>
+                    </div>
+              <div id="a1">
+                 <i class="fa fa-comments-o"></i> Live Chat <i class="fa fa-angle-double-right"></i>
+              </div>
+                  <div id="a2">
+                   <i class="fa fa-question-circle"></i> Ask A Questions <i class="fa fa-angle-double-right"></i>
+              </div>
+                 <div id="a3">
+                  <i class="fa fa-phone"></i> Call Us <i class="fa fa-angle-double-right"></i>
+              </div>
+              <div id="a4">
+                  <b><a href="#">Star Chat <i class="fa fa-angle-double-right"></i></a></b>
+              </div>
+              <div id="a5">
+                  <b><a href="#">Consult With FAQS <i class="fa fa-angle-double-right"></i></a></b>
+              </div>
+              <div id="a6">
+                  <b><a href="#">+91-7415806040 <i class="fa fa-angle-double-right"></i></a></b>
+              </div>
+              <div id="a7">
+                  <b><a href="#">More About Venice</a></b>
+              </div>
+
+
+
+       <hr width="48%" align="left">
+       <div class="container2">
+       <h2><b>&nbsp &nbsp  &nbsp  &nbsp &nbsp &nbsp     Subscribe to Newsletters <i class="fa fa-envelope"></i></b></h2>  
+        &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp &nbsp <input type="text" id="email" placeholder="Enter Your Email Address">  &nbsp   &nbsp  <button id="b2" onclick="window.loacation.href='#'">Sign up</button>
+        <h5>&nbsp &nbsp  &nbsp  &nbsp &nbsp &nbsp &nbsp  &nbsp  &nbsp  &nbsp &nbsp  &nbsp  &nbsp  &nbsp  &nbsp We will deliver great deals to your inbox!</h5>
+            &nbsp &nbsp  &nbsp <b><a href="#">Read Our Privacy Policy <i class="fa fa-angle-double-right"></i></a></b>
+       </div>
+       <hr width="100%" solid >
+       <div class="container3">
+            <div class="verticalLine">
+             <h2><b>TakeTours Links:-)  &nbsp &nbsp  &nbsp    More TakeTours Destinations:-)  &nbsp &nbsp  &nbsp  &nbsp  &nbsp  Connect with us:-)</b></h2>
+             <span id="span5">
+                 <a href="#">Gift Certificates</a></b><br>
+                 <a href="#">Coupons</a></b><br>
+                 <a href="#">Travel Insurence</a></b><br>
+                 <a href="#">Group Services</a></b><br>
+                 <a href="#">Travels Companions</a></b><br>
+                 <a href="#">Loyality Programs</a></b><br>
+                 <a href="#">Affiliate Programs</a></b><br>
+                 </span>          
+               <span id="span6">
+                 <a href="#">About us</a></b><br>
+                 <a href="#">Work With Us</a></b><br>
+                 <a href="#">Travel Blog</a></b><br>
+                 <a href="#">Help Center</a></b><br>
+                 <a href="#">Site Map</a></b><br>
+                 <a href="#">All Tours</a></b><br>
+                 <a href="#">Price Protection</a></b><br>
+                 </span>
+                      <span id="span7">
+                 <a href="#">East Coast Tours</a></b><br>
+                 <a href="#">New York Tours & Vacation</a></b><br>
+                 <a href="#">Niagara Falls Tours</a></b><br>
+                 <a href="#">Help Center</a></b><br>
+                 <a href="#">Tour & Vacation Packages</a></b><br>
+                 <a href="#">Latin America Tours</a></b><br>
+                 <a href="#">Europe Tours & Vacations</a></b><br>
+                 </span>
+                      <span id="span8">
+                 <a href="#">West Coast Tours</a></b><br>
+                 <a href="#">Yellowstone Tours</a></b><br>
+                 <a href="#">Grand Canyon Tours</a></b><br>
+                 <a href="#">Los Angeles Tours & Vacations</a></b><br>
+                 <a href="#">Tour & Vacation Packages</a></b><br>
+                 <a href="#">San Francisco Tours & Vacations</a></b><br>
+                 <a href="#">Mexico Tours & Vacations</a></b><br>
+                 </span>
+                     <span id="span9">
+                 <a href="#"><i class="fa fa-facebook-official"></i> &nbsp Be a fan</a></b><br>
+                 <a href="#"><i class="fa fa-google-plus-square"></i> &nbsp Add to circle</a></b><br>
+                 <a href="#"><i class="fa fa-twitter"></i> &nbsp Follow us</a></b><br>
+                 <a href="#"><i class="fa fa-youtube"></i> &nbsp Subscribe</a></b><br>
+                 <a href="#"><i class="fa fa-pinterest-square"></i>&nbsp Pin us</a></b><br>
+                 <a href="#"><i class="fa fa-instagram"></i> &nbsp Find us</a></b><br>
+                 </span>
+                     </div>
+          
+
+
+
+
+
+
+          </div> 
+      <footer>
+           <hr width=100% style="border-color=blue" "border-width=3px">
+   <div class="footing"><i>World Tours</i></div>
+    <center><b>Copyright © 2015 by World Tours.com. All rights reserved. World Tours is a registered trademark of Aman's Corporation.<br>
+Use of this website constitutes acceptance of WorldTour's Security Statement, Privacy Policy and User Agreement.</b></center><br>
+     </footer>          
+                
+
+
+
+
+
+
+  </section>
+  <aside>
+     
+  </aside>
+
+     
+ 	    
+</body>
+</html>
